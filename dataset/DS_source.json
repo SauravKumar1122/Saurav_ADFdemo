@@ -1,0 +1,75 @@
+{
+	"name": "DS_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_source1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Month",
+				"type": "String"
+			},
+			{
+				"name": " \"Average\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2005\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2006\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2007\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2008\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2009\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2010\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2011\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2012\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2013\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2014\"",
+				"type": "String"
+			},
+			{
+				"name": " \"2015\"",
+				"type": "String"
+			}
+		]
+	}
+}
